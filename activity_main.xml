@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FAFAFA">
+
+    <ImageView
+        android:id="@+id/topImageView"
+        android:layout_width="200dp"
+        android:layout_height="87dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="Trophy Image"
+        android:src="@drawable/ase" />
+
+    <Button
+        android:id="@+id/tileTextRecognition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="120dp"
+        android:text="Text Recognition" />
+
+    <Button
+        android:id="@+id/tilePlateDetection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="100dp"
+        android:text="Number Plate Detection" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="130dp"
+        android:text="CH.EN.U4CYS21015" />
+
+</RelativeLayout>
